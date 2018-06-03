@@ -1,0 +1,40 @@
+﻿  Compiling CUDA source file source.cu...
+  
+  H:\CUDA\ClothSimulation_CUDA0.3\ClothSimulation_CUDA0.3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files (x86)\Visual Leak Detector\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\source.cu.obj "H:\CUDA\ClothSimulation_CUDA0.3\ClothSimulation_CUDA0.3\source.cu" 
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Mesh.cuh(244): warning : variable "isClosed" was set but never used
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Common.cuh(525): warning : a __constant__ variable "kernel_PI" cannot be directly read in a host function
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Mesh.cuh(244): warning : variable "isClosed" was set but never used
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  source.cu
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Common.cuh(91): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Common.cuh(302): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Common.cuh(305): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Common.cuh(309): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Common.cuh(310): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Common.cuh(317): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Common.cuh(327): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Mesh.cuh(266): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Mesh.cuh(278): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Mesh.cuh(279): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Data.cuh(299): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Data.cuh(301): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Data.cuh(324): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Data.cuh(326): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Data.cuh(345): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Data.cuh(354): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Data.cuh(363): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Data.cuh(365): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Stiffness.cuh(46): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Stiffness.cuh(76): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Stiffness.cuh(102): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Model.cuh(160): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Model.cuh(234): warning C4018: '<': signed/unsigned mismatch
+h:\cuda\clothsimulation_cuda0.3\clothsimulation_cuda0.3\Model.cuh(235): warning C4018: '<': signed/unsigned mismatch
+H:/CUDA/ClothSimulation_CUDA0.3/ClothSimulation_CUDA0.3/source.cu(15): warning C4244: 'initializing': conversion from '__int64' to 'double', possible loss of data
+H:/CUDA/ClothSimulation_CUDA0.3/ClothSimulation_CUDA0.3/source.cu(9): warning C4101: 'Clock': unreferenced local variable
+  ClothSimulation_CUDA0.3.vcxproj -> H:\CUDA\ClothSimulation_CUDA0.3\x64\Debug\ClothSimulation_CUDA0.3.exe
+  ClothSimulation_CUDA0.3.vcxproj -> H:\CUDA\ClothSimulation_CUDA0.3\x64\Debug\ClothSimulation_CUDA0.3.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "H:\CUDA\ClothSimulation_CUDA0.3\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
